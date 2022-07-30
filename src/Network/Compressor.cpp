@@ -6,7 +6,7 @@
 #include "Compressor.h"
 #include <zlib.h>
 
-#define Biggest 30000
+#define Biggest 30000000
 std::string Zlib::Comp(std::string Data) {
    char* C = new char[Biggest];
    memset(C, 0, Biggest);
